@@ -48,9 +48,9 @@ export async function getProducts(){
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
             
-            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-full", "h-[400px]", "text-[25px]", "text-center");
+            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[400px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = alimento.img;
-            imagen.classList.add("w-[200px]", );
+            imagen.classList.add("w-[250px]", );
             caja.appendChild(imagen);
             caja.appendChild(lista);
             lista.innerHTML = `<p>${alimento.id} - ${alimento.nombre} <br> Precio: $${alimento.precio}</p>`;
@@ -63,9 +63,9 @@ export async function getProducts(){
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
 
-            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-full", "h-[400px]", "text-[25px]", "text-center");
+            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[400px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = arena.img;
-            imagen.classList.add("w-[200px]", );
+            imagen.classList.add("w-[250px]", );
             lista.innerHTML = `<p>${arena.id} - ${arena.nombre} <br> Precio: $${arena.precio}</p>`;
             caja.appendChild(imagen);
             caja.appendChild(lista);
@@ -79,9 +79,9 @@ export async function getProducts(){
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
 
-            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-full", "h-[400px]", "text-[25px]", "text-center");
+            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[400px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = camas.img;
-            imagen.classList.add("w-[200px]", );
+            imagen.classList.add("w-[250px]", );
             lista.innerHTML = `<p>${camas.id} - ${camas.nombre} <br> Precio: $${camas.precio}</p>`;
             caja.appendChild(imagen);
             caja.appendChild(lista);
@@ -95,9 +95,9 @@ export async function getProducts(){
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
 
-            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-full", "h-[400px]", "text-[25px]", "text-center");
+            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[400px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = juguete.img;
-            imagen.classList.add("w-[200px]", );
+            imagen.classList.add("w-[250px]", );
             lista.innerHTML = `<p>${juguete.id} - ${juguete.nombre} <br> Precio: $${juguete.precio}</p>`;
             caja.appendChild(imagen);
             caja.appendChild(lista);
@@ -111,9 +111,9 @@ export async function getProducts(){
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
 
-            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-full", "h-[400px]", "text-[25px]", "text-center");
+            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[400px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = vtn.img;
-            imagen.classList.add("w-[200px]", );
+            imagen.classList.add("w-[250px]", );
             lista.innerHTML = `<p>${vtn.id} - ${vtn.nombre} <br> Precio: $${vtn.precio}</p>`;
             caja.appendChild(imagen);
             caja.appendChild(lista);
@@ -127,9 +127,9 @@ export async function getProducts(){
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
 
-            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-full", "h-[400px]", "text-[25px]", "text-center");
+            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[400px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = rascador.img;
-            imagen.classList.add("w-[200px]", );
+            imagen.classList.add("w-[250px]", );
             lista.innerHTML = `<p>${rascador.id} - ${rascador.nombre} <br> Precio: $${rascador.precio}</p>`;
             caja.appendChild(imagen);
             caja.appendChild(lista);
@@ -143,9 +143,9 @@ export async function getProducts(){
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
 
-            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-full", "h-[400px]", "text-[25px]", "text-center");
+            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[400px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = ropaacs.img;
-            imagen.classList.add("w-[200px]", );
+            imagen.classList.add("w-[250px]", );
             lista.innerHTML = `<p>${ropaacs.id} - ${ropaacs.nombre} <br> Precio: $${ropaacs.precio}`;
             caja.appendChild(imagen);
             caja.appendChild(lista);
@@ -159,9 +159,9 @@ export async function getProducts(){
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
 
-            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-full", "h-[400px]", "text-[25px]", "text-center");
+            caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[400px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = cepi.img;
-            imagen.classList.add("w-[200px]", );
+            imagen.classList.add("w-[250px]", );
             lista.innerHTML = `<p>${cepi.id} - ${cepi.nombre} <br> Precio: $${cepi.precio} </p>`;
             caja.appendChild(imagen);
             caja.appendChild(lista);
