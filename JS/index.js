@@ -34,3 +34,6 @@ REQUERIDO:
 
 OPCIONAL:
 - Que el sitio maneje 4 resoluciones distintas (Mobile, Tablet, Desktop, Large Desktop)  */
+
+
+import { getProducts } from "./products.js";
