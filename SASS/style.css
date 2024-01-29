@@ -270,6 +270,8 @@ header {
 #productos .produits {
   height: 75vh;
   width: 75%;
+  max-height: 600px;
+  overflow: auto;
   margin: 40px;
   background: rgba(244, 243, 238, 0.3058823529);
   border-radius: 10px;

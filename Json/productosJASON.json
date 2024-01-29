@@ -1,6 +1,6 @@
 {
-    "Alimento para gatos": {
-        "Alimento-1": {
+    "Alimento_Para_Gatos": [ 
+        {
             "id": 1,
             "img": "https://felinus.cl/5638-medium_default/acana-bountiful-catch-gatos.jpg",
             "nombre": "Acana Bounti",
@@ -8,7 +8,7 @@
             "precio": 21.990,
             "stock": 10
         },
-        "Alimento-2": {
+        {
             "id": 2,
             "img": "https://felinus.cl/3938-medium_default/ama-alimento-humedo-para-gatos.jpg",
             "nombre": "Ama Alimento Húmedo",
@@ -16,7 +16,7 @@
             "precio": 5.690,
             "stock": 12
         },
-        "Alimento-3": {
+        {
             "id": 3,
             "img": "https://felinus.cl/5230-medium_default/amity-lata-atun-y-salmon-kitten.jpg",
             "nombre": "Amity Lata Atún y Salmón",
@@ -24,7 +24,7 @@
             "precio": 2.290,
             "stock": 12
         },
-        "Alimento-4": {
+        {
             "id": 4,
             "img": "https://felinus.cl/7945-medium_default/biofresh-gatitos.jpg",
             "nombre": "Biofresh Gatitos",
@@ -32,9 +32,9 @@
             "precio": 17.990,
             "stock": 9
         }
-    },
-    "Arena Sanitaria": {
-        "Arena Sanitaria 1": {
+    ],
+    "Arena_Sanitaria": [
+        {
             "id": 1,
             "img": "https://felinus.cl/6013-medium_default/america-litter-clean-pawz.jpg",
             "nombre": "America Litter Clean Paws",
@@ -42,7 +42,7 @@
             "precio": 8.990,
             "stock": 4
         },
-        "Arena Sanitaria 2": {
+        {
             "id": 2,
             "img": "https://felinus.cl/8615-medium_default/bio-stone-arena-sanitaria-aglomerante.jpg",
             "nombre": "Bio Stone Arena Aglomerante",
@@ -50,7 +50,7 @@
             "precio": 7.990,
             "stock": 4
         },
-        "Arena Sanitaria 3": {
+        {
             "id": 3,
             "img": "https://felinus.cl/8044-medium_default/cateko-litter.jpg",
             "nombre": "Cateko Litter",
@@ -58,7 +58,7 @@
             "precio": 9.992,
             "stock": 6
         },
-        "Arena Sanitaria 4": {
+        {
             "id": 4,
             "img": "https://felinus.cl/9247-medium_default/fashion-cat-litter-arena-sanitaria.jpg",
             "nombre": "Fashion Cat Litter Arena",
@@ -66,9 +66,9 @@
             "precio": 3.490,
             "stock": 6
         }
-    },
-    "Camas y Casas": {
-        "Camas 1": {
+    ],
+    "Camas_y_Casas": [
+        {
             "id": 1,
             "img": "https://felinus.cl/7045-medium_default/almohadilla-termica-con-control-digital.jpg",
             "nombre": "Almohadilla Térmica con Control Digital",
@@ -76,7 +76,7 @@
             "precio": 12.990,
             "stock": 9
         },
-        "Camas 2": {
+        {
             "id": 2,
             "img": "https://felinus.cl/8588-medium_default/cama-antiestres-para-gato.jpg",
             "nombre": "Cama Antiestrés",
@@ -84,7 +84,7 @@
             "precio": 19.990,
             "stock": 8
         },
-        "Camas 3": {
+        {
             "id": 3,
             "img": "https://felinus.cl/2521-medium_default/catit-vesper-rocket.jpg",
             "nombre": "Catit Vesper Rocket",
@@ -92,7 +92,7 @@
             "precio": 50.918,
             "stock": 4
         },
-        "Camas 4": {
+        {
             "id": 4,
             "img": "https://felinus.cl/9067-medium_default/rascador-chispas.jpg",
             "nombre": "Rascador Chispas",
@@ -100,9 +100,9 @@
             "precio": 38.990,
             "stock": 10
         }
-    },
-    "Juguetes": {
-        "Juguete 1": {
+    ],
+    "Juguetes": [
+        {
             "id": 1,
             "img": "https://felinus.cl/5029-medium_default/afp-lamb-juguete-manilla-de-puerta.jpg",
             "nombre": "AFP Lamb Juguete Manilla de Puerta",
@@ -110,7 +110,7 @@
             "precio": 11.990,
             "stock": 8
         },
-        "juguete 2": {
+        {
             "id": 2,
             "img": "https://felinus.cl/5025-medium_default/afp-varita-furry-ball.jpg",
             "nombre": "Varita Furry Ball",
@@ -118,7 +118,7 @@
             "precio": 5.990,
             "stock": 8
         },
-        "Juguete 3": {
+        {
             "id": 3,
             "img": "https://felinus.cl/543-medium_default/catit-masajeador-de-pared-self-groomer.jpg",
             "nombre": "Catit Masajeador de Pared",
@@ -126,7 +126,7 @@
             "precio": 6.190,
             "stock": 8
         },
-        "Juguete 4": {
+        {
             "id": 4,
             "img": "https://felinus.cl/2147-medium_default/catit-play-circuito-con-masajeador.jpg",
             "nombre": "Catit Play Circuito con Masajeador",
@@ -134,9 +134,9 @@
             "precio": 18.990,
             "stock": 8
         }
-    },
-    "vitaminas": {
-        "vitamina 1": {
+    ],
+    "Vitaminas": [
+        {
             "id": 1,
             "img": "https://felinus.cl/976-medium_default/apeticat-suplemento-vitaminico-jarabe.jpg",
             "nombre": "Apeticat, Suplemento Vitaminico Jarabe",
@@ -144,7 +144,7 @@
             "precio": 10.990,
             "stock": 8
         },
-        "vitamina 2": {
+        {
             "id": 2,
             "img": "https://felinus.cl/5689-medium_default/daforte-50-ml.jpg",
             "nombre": "Daforte 20 ml",
@@ -152,7 +152,7 @@
             "precio": 15.990,
             "stock": 14
         },
-        "vitamina 3": {
+        {
             "id": 3,
             "img": "https://felinus.cl/2900-medium_default/florafix-probiotico-y-prebiotico.jpg",
             "nombre": "Florafix Probiótico y Prebiótico",
@@ -160,7 +160,7 @@
             "precio": 11.290,
             "stock": 9
         },
-        "vitamina 4": {
+        {
             "id": 4,
             "img": "https://felinus.cl/6727-medium_default/oralade-hydrate-cat.jpg",
             "nombre": "Oralade Hydrate Cat",
@@ -168,9 +168,9 @@
             "precio": 6.290,
             "stock": 8
         }
-    },
-    "Rascadores": {
-        "Rascador 1": {
+    ],
+    "Rascadores": [
+        {
             "id": 1,
             "img": "https://felinus.cl/6893-medium_default/alfombrilla-rascadora-para-gatos.jpg",
             "nombre": "Alfombrilla Rascadora",
@@ -178,7 +178,7 @@
             "precio": 11.890,
             "stock": 10
         },
-        "Rascador 2": {
+        {
             "id": 2,
             "img": "https://felinus.cl/2151-medium_default/catit-play-circuito-con-rasgunador.jpg",
             "nombre": "Catit Play Circuito con Rasguñador",
@@ -186,7 +186,7 @@
             "precio": 17.990,
             "stock": 10
         },
-        "Rascador 3": {
+        {
             "id": 3,
             "img": "https://felinus.cl/9067-medium_default/rascador-chispas.jpg",
             "nombre": "Catit Vesper Furniture V Double",
@@ -194,7 +194,7 @@
             "precio": 153.743,
             "stock": 10
         },
-        "Rascador 4": {
+        {
             "id": 4,
             "img": "https://felinus.cl/7502-medium_default/gatificacion-protector-de-sofa.jpg",
             "nombre": "Gatificación Protector de Sofá",
@@ -202,9 +202,9 @@
             "precio": 32.990,
             "stock": 10
         }
-    },
-    "Ropa y Accesorios": {
-        "ropa 1": {
+    ],
+    "Ropa_y_Accesorios": [
+        {
             "id": 1,
             "img": "https://felinus.cl/5837-medium_default/alas-de-murcielago-para-gatos.jpg",
             "nombre": "Alas de Murciélago",
@@ -212,7 +212,7 @@
             "precio": 5.990,
             "stock": 8
         },
-        "ropa 2": {
+        {
             "id": 2,
             "img": "https://felinus.cl/1107-medium_default/coastal-collar-fashion-black-skull.jpg",
             "nombre": "Coastal Collar Fashion Black Skull",
@@ -220,7 +220,7 @@
             "precio": 4.493,
             "stock": 8
         },
-        "ropa 3": {
+        {
             "id": 3,
             "img": "https://felinus.cl/5833-medium_default/corbata-para-gatos.jpg",
             "nombre": "Corbata",
@@ -228,7 +228,7 @@
             "precio": 3.990,
             "stock": 8
         },
-        "ropa 4": {
+        {
             "id": 4,
             "img": "https://felinus.cl/5899-medium_default/disfraz-de-dracula-para-gatos.jpg",
             "nombre": "Disfraz de Drácula",
@@ -236,9 +236,9 @@
             "precio": 12.990,
             "stock": 8
         }
-    },
-    "Cepillos": {
-        "Cepillo 1": {
+    ],
+    "Cepillos": [
+        {
             "id": 1,
             "img": "https://felinus.cl/5969-medium_default/furmaster-cepillo-antipelecha.jpg",
             "nombre": "Furmaster Cepillo Antipelecha",
@@ -246,7 +246,7 @@
             "precio": 7.990,
             "stock": 10
         },
-        "Cepillo 2": {
+        {
             "id": 2,
             "img": "https://felinus.cl/5967-medium_default/furmaster-cepillo-para-nudos.jpg",
             "nombre": "Furmaster Cepillo para Nudos",
@@ -254,7 +254,7 @@
             "precio": 7.990,
             "stock": 10
         },
-        "Cepillo 3": {
+        {
             "id": 3,
             "img": "https://felinus.cl/5856-medium_default/cepillo-para-gatos.jpg",
             "nombre": "FURminator Cepillo Dual",
@@ -262,7 +262,7 @@
             "precio": 21.990,
             "stock": 10
         },
-        "Cepillo 4": {
+        {
             "id": 4,
             "img": "https://felinus.cl/5856-medium_default/cepillo-para-gatos.jpg",
             "nombre": "Cepillo para Gatos",
@@ -270,5 +270,5 @@
             "precio": 21.990,
             "stock": 10
         }
-    }
+    ]
 }
