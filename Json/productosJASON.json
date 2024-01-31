@@ -19,7 +19,7 @@
         {
             "id": 3,
             "img": "https://felinus.cl/5230-medium_default/amity-lata-atun-y-salmon-kitten.jpg",
-            "nombre": "Amity Lata Atún y Salmón",
+            "nombre": "Amity Lata Atún",
             "descripcion": "es un formula exquisita y fresca que agregará variedad a la dieta de tu gato",
             "precio": 2.290,
             "stock": 12
@@ -37,7 +37,7 @@
         {
             "id": 1,
             "img": "https://felinus.cl/6013-medium_default/america-litter-clean-pawz.jpg",
-            "nombre": "America Litter Clean Paws",
+            "nombre": "America Litter Clean",
             "descripcion": " es una arena para gatos ideal si buscamos una arena que dure mas. AmericaLitter Clean Paws se aglutina de forma compacta, absorbe más líquido y proporciona comodidad a los gatos",
             "precio": 8.990,
             "stock": 4
@@ -45,7 +45,7 @@
         {
             "id": 2,
             "img": "https://felinus.cl/8615-medium_default/bio-stone-arena-sanitaria-aglomerante.jpg",
-            "nombre": "Bio Stone Arena Aglomerante",
+            "nombre": "Bio Arena Aglomerante",
             "descripcion": "elaborada con bentonita sódica, un componente natural reconocido por su extraordinaria capacidad de absorción y control de olores",
             "precio": 7.990,
             "stock": 4
@@ -61,7 +61,7 @@
         {
             "id": 4,
             "img": "https://felinus.cl/9247-medium_default/fashion-cat-litter-arena-sanitaria.jpg",
-            "nombre": "Fashion Cat Litter Arena",
+            "nombre": "Fashion Cat Arena",
             "descripcion": "una arena sanitaria de alto poder aglutinante que redefine la experiencia de cuidar a tu felino con estilo y responsabilidad ambiental",
             "precio": 3.490,
             "stock": 6
@@ -71,7 +71,7 @@
         {
             "id": 1,
             "img": "https://felinus.cl/7045-medium_default/almohadilla-termica-con-control-digital.jpg",
-            "nombre": "Almohadilla Térmica con Control Digital",
+            "nombre": "Almohadilla Térmica con Control",
             "descripcion": "es una excelente opción para abrigar a tus mascotas durante los días más fríos del año",
             "precio": 12.990,
             "stock": 9
@@ -105,7 +105,7 @@
         {
             "id": 1,
             "img": "https://felinus.cl/5029-medium_default/afp-lamb-juguete-manilla-de-puerta.jpg",
-            "nombre": "AFP Lamb Juguete Manilla de Puerta",
+            "nombre": "Juguete Manilla Puerta",
             "descripcion": "Cuélgalo de cualquier manilla y observa cómo tu amigo de cuatro patas salta, golpea y persigue este colgador",
             "precio": 11.990,
             "stock": 8
@@ -121,7 +121,7 @@
         {
             "id": 3,
             "img": "https://felinus.cl/543-medium_default/catit-masajeador-de-pared-self-groomer.jpg",
-            "nombre": "Catit Masajeador de Pared",
+            "nombre": "Catit Masajeador",
             "descripcion": " es un práctico cepillo que se fija en paredes o esquinas del hogar proporcionando un lugar idóneo para que el gato pueda frotarse y cepillarse",
             "precio": 6.190,
             "stock": 8
@@ -129,7 +129,7 @@
         {
             "id": 4,
             "img": "https://felinus.cl/2147-medium_default/catit-play-circuito-con-masajeador.jpg",
-            "nombre": "Catit Play Circuito con Masajeador",
+            "nombre": "Circuito con Masajeador",
             "descripcion": "Un entretenido juguete compuesto por un circuito",
             "precio": 18.990,
             "stock": 8
@@ -139,7 +139,7 @@
         {
             "id": 1,
             "img": "https://felinus.cl/976-medium_default/apeticat-suplemento-vitaminico-jarabe.jpg",
-            "nombre": "Apeticat, Suplemento Vitaminico Jarabe",
+            "nombre": "Apeticat, Vitaminico Jarabe",
             "descripcion": "formulado a base de Taurina y Carnitina, complementado con aminoácidos, vitaminas y Calcio. Su fórmula aumenta las ganas de comer de su mascota",
             "precio": 10.990,
             "stock": 8
@@ -155,7 +155,7 @@
         {
             "id": 3,
             "img": "https://felinus.cl/2900-medium_default/florafix-probiotico-y-prebiotico.jpg",
-            "nombre": "Florafix Probiótico y Prebiótico",
+            "nombre": "Probiótico y Prebiótico",
             "descripcion": "es un simbiótico a base de microorganismos vivos, desarrollado para proteger la estructura y funcionalidad intestinal. Presentación 15 gr",
             "precio": 11.290,
             "stock": 9
@@ -181,7 +181,7 @@
         {
             "id": 2,
             "img": "https://felinus.cl/2151-medium_default/catit-play-circuito-con-rasgunador.jpg",
-            "nombre": "Catit Play Circuito con Rasguñador",
+            "nombre": "Catit con Rasguñador",
             "descripcion": " Un entretenido juguete compuesto por un circuito, una abeja saltarina y un rascador de cartón que mantendrán a tus gatos ocupados y estimulados",
             "precio": 17.990,
             "stock": 10
@@ -189,7 +189,7 @@
         {
             "id": 3,
             "img": "https://felinus.cl/9067-medium_default/rascador-chispas.jpg",
-            "nombre": "Catit Vesper Furniture V Double",
+            "nombre": "Catit Vesper Furniture",
             "descripcion": "en elegante nogal! Este rascador es el sueño hecho realidad para aquellos que tienen dos o más gatos en casa",
             "precio": 153.743,
             "stock": 10
@@ -197,7 +197,7 @@
         {
             "id": 4,
             "img": "https://felinus.cl/7502-medium_default/gatificacion-protector-de-sofa.jpg",
-            "nombre": "Gatificación Protector de Sofá",
+            "nombre": "Gatificación Protector",
             "descripcion": "es un gran rascador perfecto para ser instalado en las esquinas de los sofás y sillones",
             "precio": 32.990,
             "stock": 10
@@ -215,7 +215,7 @@
         {
             "id": 2,
             "img": "https://felinus.cl/1107-medium_default/coastal-collar-fashion-black-skull.jpg",
-            "nombre": "Coastal Collar Fashion Black Skull",
+            "nombre": "Coastal Collar Fashion",
             "descripcion": "de la línea Fashion es un collar liviano y duradero, con una hebilla Breakaway de seguridad y una campana que combina el color con estilo",
             "precio": 4.493,
             "stock": 8
