@@ -256,7 +256,7 @@
         },
         {
             "id": 3,
-            "img": "https://felinus.cl/5856-medium_default/cepillo-para-gatos.jpg",
+            "img": "https://felinus.cl/465-medium_default/furminator-cepillo-dual-para-mascotas.jpg",
             "nombre": "FURminator Cepillo Dual",
             "descripcion": "es ideal para el aseo diario de tu perro o gato. Por un lado sus cerdas metálicas eliminan el pelo suelto de la capa superior al mismo tiempo que desenreda",
             "precio": 21.990,
@@ -264,10 +264,10 @@
         },
         {
             "id": 4,
-            "img": "https://felinus.cl/5856-medium_default/cepillo-para-gatos.jpg",
-            "nombre": "Cepillo para Gatos",
-            "descripcion": "el cepillo para gatos es ideal para limpiar la piel de tu gato",
-            "precio": 21.990,
+            "img": "https://felinus.cl/1798-medium_default/le-salon-cepillo-de-goma-para-gatos.jpg",
+            "nombre": "Cepillo de Gomas",
+            "descripcion": "es ideal para gatos de pelo corto. Sus puntas de goma masajean y estimulan la piel. Excelente para sacar el pelo suelto que muda",
+            "precio": 5.990,
             "stock": 10
         }
     ]
