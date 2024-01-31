@@ -12,6 +12,10 @@ body {
   background-repeat: no-repeat;
 }
 
+body.oscuro {
+  background: linear-gradient(0deg, #8b8b8b 20%, #272727 80%);
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -73,6 +77,12 @@ header {
 }
 #home .contenedor_boton p {
   padding-bottom: 20px;
+}
+#home .contenedor_boton svg {
+  fill: none;
+}
+#home .contenedor_boton #p {
+  fill: #000;
 }
 
 .toggle-switch {
@@ -205,7 +215,67 @@ header {
   color: #433ee1;
 }
 
+body.oscuro {
+  background: linear-gradient(0deg, #8b8b8b 20%, #272727 80%);
+}
+body.oscuro #home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 30px;
+  margin-top: 90px;
+}
+body.oscuro #home .ofertas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+body.oscuro #home .ofertas_comida {
+  width: 500px;
+  height: 200px;
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(244, 243, 238);
+  border-radius: 10px;
+  font-size: 20px;
+}
+body.oscuro #home .contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body.oscuro #home .contenedor_boton {
+  width: 250px;
+  height: 200px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #272727;
+  border-radius: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  border: 2px solid rgb(244, 243, 238);
+  color: rgb(244, 243, 238);
+}
+body.oscuro #home .contenedor_boton svg {
+  fill: none;
+  stroke: rgb(244, 243, 238);
+}
+body.oscuro #home .contenedor_boton #p {
+  fill: rgb(244, 243, 238);
+}
+
 .navbar {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -300,6 +370,7 @@ header {
 }
 
 .navbar {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -554,6 +625,7 @@ header {
 }
 
 .navbar {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;

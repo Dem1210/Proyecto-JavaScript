@@ -9,6 +9,8 @@ body
     background: linear-gradient(0deg, rgba(244,243,238,1) 20%, rgba(144,169,183,1) 80%)
     font-family: 'Oswald', sans-serif
     background-repeat: no-repeat
+body.oscuro
+    background: linear-gradient(0deg, #8b8b8b 20%, #272727 80%)
 
 header
     @include flex(column, null, start)
@@ -48,6 +50,10 @@ header
             color: #131313
             p
                 padding-bottom: 20px
+            svg
+                fill: none
+            #p
+                fill: #000
 
 .toggle-switch
     position: relative
@@ -162,3 +168,39 @@ header
                 cursor: pointer
             a:hover
                 color: #433ee1
+
+body.oscuro
+    background: linear-gradient(0deg, #8b8b8b 20%, #272727 80%)
+    #home
+        @include flex(column, center, center)
+        width: 100%
+        font-size: 30px
+        margin-top: 90px
+        .ofertas
+            @include flex(row, space-around, center )
+            &_comida
+                width: 500px
+                height: 200px
+                margin: 40px
+                @include flex(row, space-around, center )
+                background: rgba(244,243,238,1)
+                border-radius: 10px
+                font-size: 20px
+        .contenedor
+            @include flex(row, center, center )
+            &_boton
+                width: 250px
+                height: 200px
+                margin: 40px
+                @include flex(column, space-around, center )
+                background: #272727
+                border-radius: 10px
+                font-size: 25px
+                text-decoration: none
+                border: 2px solid rgba(244,243,238,1)
+                color: rgba(244,243,238,1)
+                svg
+                    fill: none
+                    stroke: rgba(244,243,238,1)
+                #p
+                    fill: rgba(244,243,238,1)
