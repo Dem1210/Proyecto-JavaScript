@@ -55,7 +55,7 @@ export async function getProducts(){
             let caja = document.createElement("div");
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
-            let botones = document.createElement("div");
+            let botones = document.createElement("span");
             
             caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[450px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = alimento.img;
@@ -88,7 +88,7 @@ export async function getProducts(){
             let caja = document.createElement("div");
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
-            let botones = document.createElement("div");
+            let botones = document.createElement("span");
 
             caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[450px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = arena.img;
@@ -122,7 +122,7 @@ export async function getProducts(){
             let caja = document.createElement("div");
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
-            let botones = document.createElement("div");
+            let botones = document.createElement("span");
 
             caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[450px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = camas.img;
@@ -155,7 +155,7 @@ export async function getProducts(){
             let caja = document.createElement("div");
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
-            let botones = document.createElement("div");
+            let botones = document.createElement("span");
 
             caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[450px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = juguete.img;
@@ -188,7 +188,7 @@ export async function getProducts(){
             let caja = document.createElement("div");
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
-            let botones = document.createElement("div");
+            let botones = document.createElement("span");
 
             caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[450px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = vtn.img;
@@ -221,7 +221,7 @@ export async function getProducts(){
             let caja = document.createElement("div");
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
-            let botones = document.createElement("div");
+            let botones = document.createElement("span");
 
             caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[450px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = rascador.img;
@@ -254,7 +254,7 @@ export async function getProducts(){
             let caja = document.createElement("div");
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
-            let botones = document.createElement("div");
+            let botones = document.createElement("span");
 
             caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[450px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = ropaacs.img;
@@ -287,7 +287,7 @@ export async function getProducts(){
             let caja = document.createElement("div");
             let imagen = document.createElement("img");
             let lista = document.createElement("li");
-            let botones = document.createElement("div");
+            let botones = document.createElement("span");
 
             caja.classList.add("flex", "flex-col", "justify-center", "items-center", "w-[500px]", "h-[450px]", "text-[25px]", "text-center", "rounded-lg","border-double","border-2","border-black", "m-[20px]", "bg-[#90a9b765]" );
             imagen.src = cepi.img;

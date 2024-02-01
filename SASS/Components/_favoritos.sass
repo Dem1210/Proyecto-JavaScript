@@ -60,7 +60,7 @@
     background-size: cover
     background-repeat: no-repeat
     background-position: center
-    
+
     border-radius: 10px
     // padding: 5px
     gap: 30px
@@ -77,29 +77,29 @@
         box-shadow: 3px 3px 10px 2px #3a35898c
         background: #e9e9e9da
     .content_ProductosFavoritos_titulo
-            display: flex
-            width: 100%
+        display: flex
+        width: 100%
             // flex-direction: column
-            justify-content: space-between
-            align-items: center
-            font-size: 16px
-            font-family: cursive
-            padding: 3px
-            h3
-                display: flex
-                justify-content: center
-                width: 100%
-                position: relative
-                cursor: pointer
-                &::after
-                        content: ""
-                        position: absolute
-                        background: #526a83
-                        height: 3px
-                        width: 0
-                        left: 0
-                        bottom: 1px
-                        transition: 0.5s
+        justify-content: space-between
+        align-items: center
+        font-size: 16px
+        font-family: cursive
+        padding: 3px
+        h3
+            display: flex
+            justify-content: center
+            width: 100%
+            position: relative
+            cursor: pointer
+            &::after
+                content: ""
+                position: absolute
+                background: #526a83
+                height: 3px
+                width: 0
+                left: 0
+                bottom: 1px
+                transition: 0.5s
                 &:hover::after
                     width: 100%
                 &:active
@@ -129,7 +129,7 @@
         width: 100%
         background: #bdbcbb
         gap: 20px
-        
+
         section
             @include flex(null, space-around, center )
             width: 50%
@@ -142,7 +142,7 @@
             img
                 border-radius: 50%
                 width: 50%
-                
+
             .img_nombre
                 display: flex
                 flex-direction: column
@@ -173,3 +173,17 @@
                     cursor: pointer
                 a:hover
                     color: #433ee1
+
+#body_Favorito.oscuro
+    background: #272727
+    #contendor_cajitas_Favorito
+        background-image: url("../IMG/gatoOscuro.jpg")
+        p
+            color: #e9e9e9
+        .content_ProductosFavoritos
+            color: #e9e9e9
+            background: #272727
+            border: 3px solid #e9e9e9
+            .svg_carrito_fav
+                background: #e9e9e9
+                border-radius: 5px

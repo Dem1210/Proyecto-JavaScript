@@ -96,3 +96,7 @@ cepillos.map((cepi)=>{
     </div>
     `
 })
+
+document.getElementById("boton").addEventListener("change",()=>{
+    document.getElementById("body_Favorito").classList.toggle("oscuro");
+});
