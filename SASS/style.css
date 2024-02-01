@@ -258,7 +258,6 @@ body.oscuro #home .contenedor_boton #p {
 }
 
 .navbar {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -400,7 +399,6 @@ body.oscuro #home .contenedor_boton #p {
 }
 
 .navbar {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -682,7 +680,6 @@ body.oscuro #home .contenedor_boton #p {
 }
 
 .navbar {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -792,19 +789,6 @@ body.oscuro #home .contenedor_boton #p {
 }
 #contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3::after:active {
   color: #526a83;
-}
-#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3 .svg_carrito_fav {
-  display: flex;
-  justify-content: end;
-  width: 90%;
-}
-#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3 .svg_carrito_fav svg {
-  margin-right: 10px;
-  width: 25px;
-}
-#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3 .svg_carrito_fav svg:hover {
-  transform: scale(1.3);
-  cursor: pointer;
 }
 
 #footer {
