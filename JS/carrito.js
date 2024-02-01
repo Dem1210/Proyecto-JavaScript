@@ -226,3 +226,7 @@ function sumarTotalPrecio(){
     }
 }
 sumarTotalPrecio();
+
+document.getElementById("boton").addEventListener("change",()=>{
+    document.getElementById("body_carrito").classList.toggle("oscuro");
+});

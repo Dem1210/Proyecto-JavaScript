@@ -33,26 +33,9 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 75vh;
   font-size: 30px;
   margin-top: 90px;
-}
-#home .ofertas {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-#home .ofertas_comida {
-  width: 500px;
-  height: 200px;
-  margin: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  background: rgb(244, 243, 238);
-  border-radius: 10px;
-  font-size: 20px;
 }
 #home .contenedor {
   display: flex;
@@ -275,6 +258,7 @@ body.oscuro #home .contenedor_boton #p {
 }
 
 .navbar {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -359,6 +343,53 @@ body.oscuro #home .contenedor_boton #p {
   font-size: 30px;
 }
 
+#Prod.oscuro {
+  background: linear-gradient(0deg, #8b8b8b 20%, #272727 80%);
+}
+#Prod.oscuro #productos {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  place-items: center;
+}
+#Prod.oscuro #productos .produits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  width: 75%;
+  max-height: 600px;
+  overflow: auto;
+  margin: 40px;
+  background: rgba(244, 243, 238, 0.1294117647);
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid rgb(244, 243, 238);
+  color: rgb(244, 243, 238);
+}
+#Prod.oscuro #productos .produits h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  font-size: 30px;
+}
+#Prod.oscuro #productos .produits div {
+  background: rgba(39, 39, 39, 0.4823529412);
+  border: 2px solid #f4f3ee;
+  border-radius: 10px;
+}
+#Prod.oscuro #productos .produits div img {
+  width: 250px;
+  border-radius: 10px;
+}
+#Prod.oscuro #productos .produits span {
+  background: #f4f3ee;
+  border: 2px solid #272727;
+  border-radius: 10px;
+  padding: 10px;
+  width: 105px;
+}
+
 #body_carrito {
   display: flex;
   flex-direction: column;
@@ -369,6 +400,7 @@ body.oscuro #home .contenedor_boton #p {
 }
 
 .navbar {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -416,6 +448,29 @@ body.oscuro #home .contenedor_boton #p {
 }
 .navbar_p1 ul li a:active {
   color: #526a83;
+}
+
+#body_carrito.oscuro {
+  background: #272727;
+}
+#body_carrito.oscuro #contendor_cajitas_carrito {
+  background-image: url("../IMG/gatoOscuro.jpg");
+}
+#body_carrito.oscuro #contendor_cajitas_carrito p {
+  color: #e9e9e9;
+}
+#body_carrito.oscuro #contendor_cajitas_carrito .content_ProductosCarritos {
+  color: #e9e9e9;
+  background: #272727;
+  border: 3px solid #e9e9e9;
+}
+#body_carrito.oscuro #contendor_cajitas_carrito .content_ProductosCarritos .total .content_ProductosCarritos {
+  background: #272727;
+  color: #e9e9e9;
+}
+#body_carrito.oscuro #contendor_cajitas_carrito .content_ProductosCarritos .svg_carrito_fav {
+  background: #e9e9e9;
+  border-radius: 5px;
 }
 
 #contendor_cajitas_carrito {
@@ -627,6 +682,7 @@ body.oscuro #home .contenedor_boton #p {
 }
 
 .navbar {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -731,22 +787,22 @@ body.oscuro #home .contenedor_boton #p {
   bottom: 1px;
   transition: 0.5s;
 }
-#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3:hover::after {
+#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3::after:hover::after {
   width: 100%;
 }
-#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3:active {
+#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3::after:active {
   color: #526a83;
 }
-#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo .svg_carrito_fav {
+#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3 .svg_carrito_fav {
   display: flex;
   justify-content: end;
   width: 90%;
 }
-#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo .svg_carrito_fav svg {
+#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3 .svg_carrito_fav svg {
   margin-right: 10px;
   width: 25px;
 }
-#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo .svg_carrito_fav svg:hover {
+#contendor_cajitas_Favorito .content_ProductosFavoritos_titulo h3 .svg_carrito_fav svg:hover {
   transform: scale(1.3);
   cursor: pointer;
 }
@@ -821,4 +877,23 @@ body.oscuro #home .contenedor_boton #p {
 }
 #footer #content section .info a:hover {
   color: #433ee1;
+}
+
+#body_Favorito.oscuro {
+  background: #272727;
+}
+#body_Favorito.oscuro #contendor_cajitas_Favorito {
+  background-image: url("../IMG/gatoOscuro.jpg");
+}
+#body_Favorito.oscuro #contendor_cajitas_Favorito p {
+  color: #e9e9e9;
+}
+#body_Favorito.oscuro #contendor_cajitas_Favorito .content_ProductosFavoritos {
+  color: #e9e9e9;
+  background: #272727;
+  border: 3px solid #e9e9e9;
+}
+#body_Favorito.oscuro #contendor_cajitas_Favorito .content_ProductosFavoritos .svg_carrito_fav {
+  background: #e9e9e9;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
