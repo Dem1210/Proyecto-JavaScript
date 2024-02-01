@@ -694,9 +694,10 @@ body.oscuro #home .contenedor_boton #p {
 #contendor_cajitas_Favorito .content_ProductosFavoritos {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 65%;
   height: 400px;
+  max-height: 500px;
+  overflow: auto;
   border: 3px solid rgba(150, 69, 69, 0.5490196078);
   margin-block: 20px;
   border-radius: 10px;

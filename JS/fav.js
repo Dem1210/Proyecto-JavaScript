@@ -1,6 +1,6 @@
-let productos_Favoritos = localStorage.getItem("fav") ? JSON.parse(localStorage.getItem("fav")) : [];
-
-let alimentos = productos_Carrito.filter((producto)=>{
+let productos_Favoritos = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
+let contador = 0;
+let alimentos = productos_Favoritos.filter((producto)=>{
     return producto.categoria === "alimento";
 })
 let arena = productos_Favoritos.filter((producto)=>{
@@ -26,50 +26,73 @@ let cepillos = productos_Favoritos.filter((producto)=>{
 })
 
 alimentos.map((alimento)=>{
-    document.getElementById("alimentos_fav_localStorage").innerHTML += `
-    <img src="${alimento.img}">
-    <p> - ${alimento.nombre} - Precio: $${alimento.precio}</p>
-    `
+    if(contador === 0){
+        document.getElementById("alimentos_fav_localStorage").innerHTML +=`
+            <div class="flex flex-col w-[260px] justify-center items-center text-black text-[14px] mb-[4px] border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+                <img class="w-[60px]" src="${alimento.img}">
+                <p>${alimento.nombre}-$ ${alimento.precio}</p>
+                <p> cantidad: ${contador} </p>
+            </div>
+            `
+            contador++;
+    } else{
+        
+    }
+    
 })
 arena.map((arenas)=>{
-    document.getElementById("arena_LocalStorage").innerHTML += `
-    <img src="${arenas.img}">
-    <p> - ${arenas.nombre} - Precio: $${arenas.precio}</p>
+    document.getElementById("arena_fav_localStorage").innerHTML += `
+    <div class="flex flex-col w-[260px] justify-center items-center text-black text-[14px] mb-[4px] border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+        <img class="w-[60px]" src="${arenas.img}">
+        <p>${arenas.nombre} -$${arenas.precio}</p>
+    </div>
     `
 })
 camas.map((cama)=>{
-    document.getElementById("camas_LocalStorage").innerHTML += `
-    <img src="${cama.img}">
-    <p> - ${cama.nombre} - Precio: $${cama.precio}</p>
+    document.getElementById("camas_fav_localStorage").innerHTML += `
+    <div class="flex flex-col w-[260px] justify-center items-center text-black text-[14px] mb-[4px] border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+        <img class="w-[60px]" src="${cama.img}">
+        <p>${cama.nombre} $${cama.precio}</p>
+    </div>
     `
 })
 juguetes.map((juguete)=>{
-    document.getElementById("juguetes_LocalStorage").innerHTML += `
-    <img src="${juguete.img}">
-    <p> - ${juguete.nombre} - Precio: $${juguete.precio}</p>
+    document.getElementById("juguetes_fav_localStorage").innerHTML += `
+    <div class="flex flex-col w-[260px] justify-center items-center text-black text-[14px] mb-[4px] border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+        <img class="w-[60px]" src="${juguete.img}">
+        <p>${juguete.nombre} $${juguete.precio}</p>
+    </div>
     `
 })
 vitaminas.map((vtn)=>{
-    document.getElementById("vitaminas_LocalStorage").innerHTML += `
-    <img src="${vtn.img}">
-    <p> - ${vtn.nombre} - Precio: $${vtn.precio}</p>
+    document.getElementById("vitaminas_fav_localStorage").innerHTML += `
+    <div class="flex flex-col w-[260px] justify-center items-center text-black text-[14px] mb-[4px] border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+        <img class="w-[60px]" src="${vtn.img}">
+        <p>${vtn.nombre} $${vtn.precio}</p>
+    </div>
     `
 })
 rascador.map((rasc)=>{
-    document.getElementById("rascadores_LocalStorage").innerHTML += `
-    <img src="${rasc.img}">
-    <p> - ${rasc.nombre} - Precio: $${rasc.precio}</p>
+    document.getElementById("rascadores_fav_localStorage").innerHTML += `
+    <div class="flex flex-col w-[260px] justify-center items-center text-black text-[14px] mb-[4px] border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+        <img class="w-[60px]" src="${rasc.img}">
+        <p>${rasc.nombre} $${rasc.precio}</p>
+    </div>
     `
 })
 ropayaccesorios.map((ropay)=>{
-    document.getElementById("ropa_LocalStorage").innerHTML += `
-    <img src="${ropay.img}">
-    <p> - ${ropay.nombre} - Precio: $${ropay.precio}</p>
+    document.getElementById("ropa_fav_localStorage").innerHTML += `
+    <div class="flex flex-col w-[260px] justify-center items-center text-black text-[14px] mb-[4px] border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+        <img class="w-[60px]" src="${ropay.img}">
+        <p>${ropay.nombre} $${ropay.precio}</p>
+    </div>
     `
 })
 cepillos.map((cepi)=>{
-    document.getElementById("cepillos_LocalStorage").innerHTML += `
-    <img src="${cepi.img}">
-    <p> - ${cepi.nombre} - Precio: $${cepi.precio}</p>
+    document.getElementById("cepillos_fav_localStorage").innerHTML += `
+    <div class="flex flex-col w-[260px] justify-center items-center text-black text-[14px] mb-[4px] border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+        <img class="w-[60px]" src="${cepi.img}">
+        <p>${cepi.nombre} $${cepi.precio}</p>
+    </div>
     `
 })

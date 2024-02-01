@@ -1,4 +1,5 @@
 let productos_Carrito = localStorage.getItem("carrito") ? JSON.parse(localStorage.getItem("carrito")) : [];
+
 let contador = 1;
 let alimentos = productos_Carrito.filter((producto)=>{
     return producto.categoria === "alimento";
