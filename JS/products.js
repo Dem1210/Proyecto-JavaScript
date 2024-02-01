@@ -71,14 +71,14 @@ export async function getProducts(){
 
             document.getElementById(`alimento-car-${contadorAlimento}`).addEventListener("click", ()=>{
                 let carritoActual = localStorage.getItem("carrito") ? JSON.parse(localStorage.getItem("carrito")) : [];
-                carritoActual = [...carritoActual, {img:alimento.img, id: alimento.id, nombre: alimento.nombre, precio: alimento.precio, categoria:"alimento"}];
+                carritoActual = [...carritoActual, {img:alimento.img, id: alimento.id, nombre: alimento.nombre, precio: alimento.precio, categoria:"alimento", cantidad:1}];
                 localStorage.setItem("carrito",JSON.stringify(carritoActual));
             })
             
 
             document.getElementById(`alimento-fav-${contadorAlimento}`).addEventListener("click", ()=>{
                 let favoritosActual = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
-                favoritosActual = [...favoritosActual, {img:alimento.img, id: alimento.id, nombre: alimento.nombre, precio: alimento.precio, categoria:"alimento"}];
+                favoritosActual = [...favoritosActual, {img:alimento.img, id: alimento.id, nombre: alimento.nombre, precio: alimento.precio, categoria:"alimento", cantidad:1}];
                 localStorage.setItem("favorito", JSON.stringify(favoritosActual));
             })
             contadorAlimento++;

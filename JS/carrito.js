@@ -44,19 +44,15 @@ alimentos.map((alimento)=>{
     </div>
     `
     function sumarTotalPrecio(){
-        let total = 0;
-        for(let i = 0; i < alimentos.length; i++){
-            total += productos_Carrito[i].precio;
-            console.log(productos_Carrito[i].precio)
-            document.getElementById("alimento_total").innerHTML = `Alimento:$${total.toFixed(2)}`
-            
-        }
+        let total = alimentos.reduce((acc, el)=> acc + el.precio, 0);
+
+        document.getElementById("alimento_total").innerHTML = `Alimento:$${total.toFixed(2)}`
     }
     sumarTotalPrecio();
 })
 arena.map((arenas)=>{
     document.getElementById("arena_LocalStorage").innerHTML += `
-    <div class="flex flex-col text-[13px] w-[240px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+    <div class="flex flex-col text-[13px] w-[220px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
         <img class="w-[70px] rounded-xl" src="${arenas.img}">
         <div class="flex flex-col w-[100%]">
             <p> ${arenas.nombre} </p>
@@ -72,18 +68,15 @@ arena.map((arenas)=>{
     </div>
     `
     function sumarTotalPrecio(){
-        let total = 0;
-        for(let i = 0; i < arena.length; i++){
-            total += productos_Carrito[i].precio;
-            document.getElementById("arena_total").innerHTML = `Arena:$${total.toFixed(2)}`
-            
-        }
+        let total = arena.reduce((acc, el)=> acc + el.precio, 0);
+
+        document.getElementById("arena_total").innerHTML = `Arena Sanitaria $${total.toFixed(2)}`
     }
     sumarTotalPrecio();
 })
 camas.map((cama)=>{
     document.getElementById("camas_LocalStorage").innerHTML += `
-    <div class="flex flex-col text-[13px] w-[240px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+    <div class="flex flex-col text-[13px] w-[220px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
         <img class="w-[70px] rounded-xl" src="${cama.img}">
         <div class="flex flex-col w-[100%]">
             <p> ${cama.nombre} </p> 
@@ -99,17 +92,15 @@ camas.map((cama)=>{
     </div>
     `
     function sumarTotal(){
-        let total = 0;
-        for(let i = 0; i < camas.length; i++){
-            total += productos_Carrito[i].precio;
-            document.getElementById("camas_total").innerHTML = `Camas:$${total.toFixed(2)}`
-        }
+        let total = camas.reduce((acc, el)=> acc + el.precio, 0);
+
+        document.getElementById("camas_total").innerHTML = `Camas y Casas: $${total.toFixed(2)}`
     }
     sumarTotal();
 })
 juguetes.map((juguete)=>{
     document.getElementById("juguetes_LocalStorage").innerHTML += `
-    <div class="flex flex-col text-[13px] w-[240px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+    <div class="flex flex-col text-[13px] w-[220px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
         <img class="w-[70px] rounded-xl" src="${juguete.img}">
         <div class="flex flex-col w-[100%]">
             <p> ${juguete.nombre} </p> 
@@ -124,17 +115,15 @@ juguetes.map((juguete)=>{
     </div>
     `
     function sumarTotal(){
-        let total = 0;
-        for(let i = 0; i < juguetes.length; i++){
-            total += productos_Carrito[i].precio;
-            document.getElementById("juguetes_total").innerHTML = `Juguetes:$${total.toFixed(2)}`
-        }
+        let total = juguetes.reduce((acc, el)=> acc + el.precio, 0);
+
+        document.getElementById("juguetes_total").innerHTML = `juguetes: $${total.toFixed(2)}`
     }
     sumarTotal();
 })
 vitaminas.map((vtn)=>{
     document.getElementById("vitaminas_LocalStorage").innerHTML += `
-    <div class="flex flex-col text-[13px] w-[240px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+    <div class="flex flex-col text-[13px] w-[220px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
         <img class="w-[70px] rounded-xl" src="${vtn.img}"> 
         <div class="flex flex-col w-[100%]">
             <p> ${vtn.nombre} <p> 
@@ -149,18 +138,16 @@ vitaminas.map((vtn)=>{
     </div>
     `
     function sumarTotal(){
-        let total = 0;
-        for(let i = 0; i < vitaminas.length; i++){
-            total += productos_Carrito[i].precio;
-            document.getElementById("vitaminas_total").innerHTML = `Vitaminas:$${total.toFixed(2)}`
-        }
+        let total = vitaminas.reduce((acc, el)=> acc + el.precio, 0);
+
+        document.getElementById("vitaminas_total").innerHTML = `Vitaminas: $${total.toFixed(2)}`
     }
     sumarTotal();
 
 })
 rascador.map((rasc)=>{
     document.getElementById("rascadores_LocalStorage").innerHTML += `
-    <div class="flex flex-col text-[13px] w-[240px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+    <div class="flex flex-col text-[13px] w-[220px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
         <img class="w-[70px] rounded-xl" src="${rasc.img}">
         <div class="flex flex-col w-[100%]">
             <p> ${rasc.nombre} </p> 
@@ -175,18 +162,16 @@ rascador.map((rasc)=>{
     </div>
     `
     function sumarTotal(){
-        let total = 0;
-        for(let i = 0; i < rascador.length; i++){
-            total += productos_Carrito[i].precio;
-            document.getElementById("rascadores_total").innerHTML = `Rascadores:$${total.toFixed(2)}`
-        }
+        let total = rascador.reduce((acc, el)=> acc + el.precio, 0);
+
+        document.getElementById("rascadores_total").innerHTML = `Rascador: $${total.toFixed(2)}`
     }
     sumarTotal();
 
 })
 ropayaccesorios.map((ropay)=>{
     document.getElementById("ropa_LocalStorage").innerHTML += `
-    <div class="flex flex-col text-[13px] w-[230px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+    <div class="flex flex-col text-[13px] w-[220px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
         <img class="w-[70px] rounded-xl" src="${ropay.img}">
         <div class="flex flex-col w-[100%]">
             <p> ${ropay.nombre} </p> 
@@ -201,17 +186,15 @@ ropayaccesorios.map((ropay)=>{
     </div>
     `
     function sumarTotal(){
-        let total = 0;
-        for(let i = 0; i < ropayaccesorios.length; i++){
-            total += productos_Carrito[i].precio;
-            document.getElementById("ropa_y_accesorios_total").innerHTML = `Ropa:$${total.toFixed(2)}`
-        }
+        let total = ropayaccesorios.reduce((acc, el) => acc + el.precio, 0);
+
+        document.getElementById("ropa_y_accesorios_total").innerHTML = `Ropa Accesorios $${total.toFixed(2)}`
     }
     sumarTotal();
 })
 cepillos.map((cepi)=>{
     document.getElementById("cepillos_LocalStorage").innerHTML += `
-    <div class="flex flex-col text-[13px] w-[240px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+    <div class="flex flex-col text-[13px] w-[220px] justify-center items-center border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
         <img class="w-[70px] rounded-xl" src="${cepi.img}">
         <div class="flex flex-col w-[100%]">
             <p> ${cepi.nombre} </p>
@@ -227,11 +210,9 @@ cepillos.map((cepi)=>{
     </div>
     `
     function sumarTotal(){
-        let total = 0;
-        for(let i = 0; i < cepillos.length; i++){
-            total += productos_Carrito[i].precio;
-            document.getElementById("cepillos_total").innerHTML = `Cepillos:$${total.toFixed(2)}`
-        }
+        let total = cepillos.reduce((acc, el)=> acc + el.precio, 0);
+
+        document.getElementById("cepillos_total").innerHTML = `Cepillos: $${total.toFixed(2)}`
     }
     sumarTotal();
 })

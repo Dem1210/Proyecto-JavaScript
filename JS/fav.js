@@ -1,5 +1,5 @@
 let productos_Favoritos = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
-let contador = 0;
+let contador = 1;
 let alimentos = productos_Favoritos.filter((producto)=>{
     return producto.categoria === "alimento";
 })
@@ -26,19 +26,18 @@ let cepillos = productos_Favoritos.filter((producto)=>{
 })
 
 alimentos.map((alimento)=>{
-    if(contador === 0){
-        document.getElementById("alimentos_fav_localStorage").innerHTML +=`
-            <div class="flex flex-col w-[260px] justify-center items-center text-black text-[14px] mb-[4px] border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
-                <img class="w-[60px]" src="${alimento.img}">
-                <p>${alimento.nombre}-$ ${alimento.precio}</p>
-                <p> cantidad: ${contador} </p>
-            </div>
-            `
-            contador++;
-    } else{
-        
+    let alimProducto = document.getElementById("alimentos_fav_localStorage");
+
+    if(alimProducto){
+        return alimProducto.innerHTML += `
+        <div class="flex flex-col w-[260px] justify-center items-center text-black text-[14px] mb-[4px] border-solid border-[1px] border-black rounded-xl p-[8px] hover:scale-90">
+            <img class="w-[60px]" src="${alimento.img}">
+            <p>${alimento.nombre}-$ ${alimento.precio}</p>
+        </div>
+        `
+    }else{
+        return alert("No hay productos favoritos")
     }
-    
 })
 arena.map((arenas)=>{
     document.getElementById("arena_fav_localStorage").innerHTML += `
