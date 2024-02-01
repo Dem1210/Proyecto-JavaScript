@@ -33,9 +33,11 @@ alimentos.map((alimento)=>{
         <div class="flex flex-col w-[100%]">
             <p> ${alimento.nombre} </p>
             <p> Precio: $${alimento.precio}</p>
+            <p> ${contador} </p>
         </div>
-    </div>
-    `
+    </div>`
+    contador++;
+
 
     document.getElementById("total_LocalStorage_alimento").innerHTML += `
     <div class="flex text-black text-[14px]">
