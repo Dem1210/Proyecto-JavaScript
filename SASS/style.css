@@ -12,10 +12,6 @@ body {
   background-repeat: no-repeat;
 }
 
-body.oscuro {
-  background: linear-gradient(0deg, #8b8b8b 20%, #272727 80%);
-}
-
 header {
   display: flex;
   flex-direction: column;
