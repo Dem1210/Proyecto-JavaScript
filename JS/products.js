@@ -77,9 +77,9 @@ export async function getProducts(){
             
 
             document.getElementById(`alimento-fav-${contadorAlimento}`).addEventListener("click", ()=>{
-                let favoritosActual = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
+                let favoritosActual = localStorage.getItem("alimento") ? JSON.parse(localStorage.getItem("alimento")) : [];
                 favoritosActual = [...favoritosActual, {img:alimento.img, id: alimento.id, nombre: alimento.nombre, precio: alimento.precio, categoria:"alimento", cantidad:1}];
-                localStorage.setItem("favorito", JSON.stringify(favoritosActual));
+                localStorage.setItem("alimento", JSON.stringify(favoritosActual));
             })
             contadorAlimento++;
         })
@@ -111,9 +111,9 @@ export async function getProducts(){
             
 
             document.getElementById(`arena-fav-${contadorArena}`).addEventListener("click", ()=>{
-                let favoritosActual = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
+                let favoritosActual = localStorage.getItem("arena") ? JSON.parse(localStorage.getItem("arena")) : [];
                 favoritosActual = [...favoritosActual, {img:arena.img, id: arena.id, nombre: arena.nombre, precio: arena.precio, categoria:"arena"}];
-                localStorage.setItem("favorito", JSON.stringify(favoritosActual));
+                localStorage.setItem("arena", JSON.stringify(favoritosActual));
             })
             contadorArena++;
         })
@@ -144,9 +144,9 @@ export async function getProducts(){
             })
             
             document.getElementById(`camas-fav-${contadorCamas}`).addEventListener("click", ()=>{
-                let favoritosActual = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
+                let favoritosActual = localStorage.getItem("camas") ? JSON.parse(localStorage.getItem("camas")) : [];
                 favoritosActual = [...favoritosActual, {img:camas.img, id: camas.id, nombre: camas.nombre, precio: camas.precio, categoria:"camas"}];
-                localStorage.setItem("favorito",JSON.stringify(favoritosActual));
+                localStorage.setItem("camas",JSON.stringify(favoritosActual));
             })
             contadorCamas++;
         })
@@ -177,9 +177,9 @@ export async function getProducts(){
             })
 
             document.getElementById(`juguetes-fav-${contadorJuguetes}`).addEventListener("click", ()=>{
-                let favoritoActual = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
+                let favoritoActual = localStorage.getItem("juguetes") ? JSON.parse(localStorage.getItem("juguetes")) : [];
                 favoritoActual = [...favoritoActual, {img:juguete.img, id: juguete.id, nombre: juguete.nombre, precio: juguete.precio, categoria:"juguetes"}];
-                localStorage.setItem("favorito",JSON.stringify(favoritoActual));
+                localStorage.setItem("juguetes",JSON.stringify(favoritoActual));
             })
             contadorJuguetes++;
         })
@@ -210,9 +210,9 @@ export async function getProducts(){
             })
             
             document.getElementById(`vitaminas-fav-${contadorVitaminas}`).addEventListener("click", ()=>{
-                let favoritoActual = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
+                let favoritoActual = localStorage.getItem("vitaminas") ? JSON.parse(localStorage.getItem("vitaminas")) : [];
                 favoritoActual = [...favoritoActual, {img:vtn.img, id: vtn.id, nombre: vtn.nombre, precio: vtn.precio, categoria:"vtn"}];
-                localStorage.setItem("favorito",JSON.stringify(favoritoActual));
+                localStorage.setItem("vitaminas",JSON.stringify(favoritoActual));
             })
             contadorVitaminas++;
         })
@@ -243,9 +243,9 @@ export async function getProducts(){
             })
             
             document.getElementById(`rascadores-fav-${contadorRascadores}`).addEventListener("click", ()=>{
-                let favoritoActual = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
+                let favoritoActual = localStorage.getItem("rascadores") ? JSON.parse(localStorage.getItem("rascadores")) : [];
                 favoritoActual = [...favoritoActual, {img:rascador.img, id: rascador.id, nombre: rascador.nombre, precio: rascador.precio, categoria:"rascador"}];
-                localStorage.setItem("favorito",JSON.stringify(favoritoActual));
+                localStorage.setItem("rascadores",JSON.stringify(favoritoActual));
             })
             contadorRascadores++;
         })
@@ -276,9 +276,9 @@ export async function getProducts(){
             })
             
             document.getElementById(`accesorios-fav-${contadorAccesorios}`).addEventListener("click", ()=>{
-                let favoritoActual = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
+                let favoritoActual = localStorage.getItem("ropaacs") ? JSON.parse(localStorage.getItem("ropaacs")) : [];
                 favoritoActual = [...favoritoActual, {img:ropaacs.img, id: ropaacs.id, nombre: ropaacs.nombre, precio: ropaacs.precio, categoria:"ropaacs"}];
-                localStorage.setItem("favorito",JSON.stringify(favoritoActual));
+                localStorage.setItem("ropaacs",JSON.stringify(favoritoActual));
             })
             contadorAccesorios++;
         })
@@ -309,9 +309,9 @@ export async function getProducts(){
             })
             
             document.getElementById(`cepillos-fav-${contadorCepillos}`).addEventListener("click", ()=>{
-                let favoritoActual = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
+                let favoritoActual = localStorage.getItem("cepillos") ? JSON.parse(localStorage.getItem("cepillos")) : [];
                 favoritoActual = [...favoritoActual, {img:cepi.img, id: cepi.id, nombre: cepi.nombre, precio: cepi.precio, categoria:"cepillos"}];
-                localStorage.setItem("favorito",JSON.stringify(favoritoActual));
+                localStorage.setItem("cepillos",JSON.stringify(favoritoActual));
             })
             contadorCepillos++;
         })

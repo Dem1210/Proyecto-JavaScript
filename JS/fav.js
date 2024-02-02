@@ -1,27 +1,37 @@
-let productos_Favoritos = localStorage.getItem("favorito") ? JSON.parse(localStorage.getItem("favorito")) : [];
+
+let productos_Favoritos_alimento = localStorage.getItem("alimento") ? JSON.parse(localStorage.getItem("alimento")) : [];
+let productos_Favoritos_arena = localStorage.getItem("arena") ? JSON.parse(localStorage.getItem("arena")) : [];
+let productos_Favoritos_camas = localStorage.getItem("camas") ? JSON.parse(localStorage.getItem("camas")) : [];
+let productos_Favoritos_juguetes = localStorage.getItem("juguetes") ? JSON.parse(localStorage.getItem("juguetes")) : [];
+let productos_Favoritos_vitaminas = localStorage.getItem("vitaminas") ? JSON.parse(localStorage.getItem("vitaminas")) : [];
+let productos_Favoritos_rascadores = localStorage.getItem("rascadores") ? JSON.parse(localStorage.getItem("rascadores")) : [];
+let productos_Favoritos_ropayaccesorios = localStorage.getItem("ropaacs") ? JSON.parse(localStorage.getItem("ropaacs")) : [];
+let productos_Favoritos_cepillos = localStorage.getItem("cepillos") ? JSON.parse(localStorage.getItem("cepillos")) : [];
+
 let contador = 1;
-let alimentos = productos_Favoritos.filter((producto)=>{
+
+let alimentos = productos_Favoritos_alimento.filter((producto)=>{
     return producto.categoria === "alimento";
 })
-let arena = productos_Favoritos.filter((producto)=>{
+let arena = productos_Favoritos_arena.filter((producto)=>{
     return producto.categoria === "arena";
 })
-let camas = productos_Favoritos.filter((producto)=>{
+let camas = productos_Favoritos_camas.filter((producto)=>{
     return producto.categoria === "camas";
 })
-let juguetes = productos_Favoritos.filter((producto)=>{
+let juguetes = productos_Favoritos_juguetes.filter((producto)=>{
     return producto.categoria === "juguetes";
 })
-let vitaminas = productos_Favoritos.filter((producto)=>{
+let vitaminas = productos_Favoritos_vitaminas.filter((producto)=>{
     return producto.categoria === "vtn";
 })
-let rascador = productos_Favoritos.filter((producto)=>{
+let rascador = productos_Favoritos_rascadores.filter((producto)=>{
     return producto.categoria === "rascador";
 })
-let ropayaccesorios = productos_Favoritos.filter((producto)=>{
+let ropayaccesorios = productos_Favoritos_ropayaccesorios.filter((producto)=>{
     return producto.categoria === "ropaacs";
 })
-let cepillos = productos_Favoritos.filter((producto)=>{
+let cepillos = productos_Favoritos_cepillos.filter((producto)=>{
     return producto.categoria === "cepillos";
 })
 
@@ -96,6 +106,41 @@ cepillos.map((cepi)=>{
     `
 })
 
+
 document.getElementById("boton").addEventListener("change",()=>{
     document.getElementById("body_Favorito").classList.toggle("oscuro");
 });
+
+// Botones Eliminar
+document.getElementById("eliminar_alimento").addEventListener("click",()=>{
+    document.getElementById("alimentos_fav_localStorage").innerHTML = "";
+    localStorage.removeItem("alimento");
+})
+document.getElementById("eliminar_arena").addEventListener("click",()=>{
+    document.getElementById("arena_fav_localStorage").innerHTML = "";
+    localStorage.removeItem("arena");
+})
+document.getElementById("eliminar_camas").addEventListener("click",()=>{
+    document.getElementById("camas_fav_localStorage").innerHTML = "";
+    localStorage.removeItem("camas");
+})
+document.getElementById("eliminar_juguetes").addEventListener("click",()=>{
+    document.getElementById("juguetes_fav_localStorage").innerHTML = "";
+    localStorage.removeItem("juguetes");
+})
+document.getElementById("eliminar_vitaminas").addEventListener("click",()=>{
+    document.getElementById("vitaminas_fav_localStorage").innerHTML = "";
+    localStorage.removeItem("vitaminas");
+})
+document.getElementById("eliminar_rascador").addEventListener("click",()=>{
+    document.getElementById("rascadores_fav_localStorage").innerHTML = "";
+    localStorage.removeItem("rascadores");
+})
+document.getElementById("eliminar_ropa").addEventListener("click",()=>{
+    document.getElementById("ropa_fav_localStorage").innerHTML = "";
+    localStorage.removeItem("ropaacs");
+})
+document.getElementById("eliminar_cepillos").addEventListener("click",()=>{
+    document.getElementById("cepillos_fav_localStorage").innerHTML = "";
+    localStorage.removeItem("cepillos");
+})
